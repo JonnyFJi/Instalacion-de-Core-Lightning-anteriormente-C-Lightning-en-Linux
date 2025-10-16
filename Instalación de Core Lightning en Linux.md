@@ -150,7 +150,7 @@ Añade esta dirección en el archivo de configuración de lightningd:
 ```shell
 sudo nano ~./lightning/config
 ```
-Copia las siguientes líneas en ese archivo reemplazando la que dice `announce-addr por la que hayas obtenido:
+Copia las siguientes líneas en ese archivo reemplazando la que dice `announce-addr` por la que hayas obtenido:
 ```shell
 announce-addr=hbv4******************fxi7fs--*-*-*d.onion:9735
 proxy=127.0.0.1:9050
