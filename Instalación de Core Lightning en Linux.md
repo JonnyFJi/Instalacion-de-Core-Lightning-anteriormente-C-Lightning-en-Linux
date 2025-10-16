@@ -158,7 +158,7 @@ always-use-proxy=true
 ```
 presiona `Ctrl+x` , luego presiona `‘s’` y enter para guardar los cambios.
 
-Ahora detenemos lightningd con el siguiente comando:
+Ahora detenemos `lightningd` con el siguiente comando:
 ```shell
 lightning-cli stop
 ```
@@ -168,15 +168,15 @@ sudo systemctl restart tor
 ```
 Y podemos iniciar de nuevo lightningd:
 ```shell
-lightningd --daemon # es doble “-” antes de daemon
+lightningd --daemon # doble “-” antes de daemon, observar bien porque algunos editores pueden cambiar ese caracter
 ```
-Para observar que esté funcionando lightningd, ejecutamos:
+Para observar que esté funcionando `lightningd`, ejecutamos:
 ```shell
 lightning-cli getinfo
 ```
 Listo, tenemos un nodo Bitcoin y Core Lightning funcionando con Tor...
 
-- Si en la actualización de los nodos, no borraste las carpetas `.bitcoin` y `.lightning`, los datos de los nodos permanecen intactos, incluidos la cadena de bloques y los datos de los canales lightning.
+- Si en la actualización de los nodos, no borras las carpetas `.bitcoin` y `.lightning`, los datos de los nodos permanecen intactos, incluidos la cadena de bloques y los datos de los canales lightning.
 
 
 ---
